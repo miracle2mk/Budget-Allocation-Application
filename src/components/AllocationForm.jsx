@@ -96,11 +96,7 @@ const AllocationForm = (props) => {
         </div>
       </div>
 
-          <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
-            <label className="input-group-text" htmlFor="inputGroupSelect02">
-              Allocation
- </label>
-          </div>
+          
           <select
             className="custom-select"
             id="inputGroupSelect02"
