@@ -94,11 +94,6 @@ const AllocationForm = (props) => {
               ₹ Ruppee
             </option>
           </select>
-          <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
-            <label className="input-group-text" htmlFor="inputGroupSelect02">
-              Allocation
-            </label>
-          </div>
         </div>
       </div>
           
