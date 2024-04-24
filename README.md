@@ -23,7 +23,3 @@ To run this project locally, follow these steps:
 4. Start the development server using `npm start`.
 5. Open your browser and visit `http://localhost:3000` to see the app in action.
 
-## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Contributions are always welcome!
-
