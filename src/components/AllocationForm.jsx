@@ -68,6 +68,40 @@ const AllocationForm = (props) => {
               Admin
             </option>
           </select>
+<div className="row">
+        <div className="input-group mb-3" style={{ marginLeft: '2rem' }}>
+          <div className="input-group-prepend">
+            <label className="input-group-text" htmlFor="inputGroupSelect01">
+              Currency(£Pound)
+            </label>
+          </div>
+          <select
+            className="custom-select"
+            id="inputGroupSelect01"
+            onChange={(event) => setName(event.target.value)}
+          >
+            <option defaultValue>Choose...</option>
+            <option value="Marketing" name="marketing">
+              $Dollar
+            </option>
+            <option value="Sales" name="sales">
+              £Pound
+            </option>
+            <option value="Finance" name="finance">
+              € Euro 
+            </option>
+            <option value="HR" name="HR">
+              ₹ Ruppee
+            </option>
+          </select>
+          <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
+            <label className="input-group-text" htmlFor="inputGroupSelect02">
+              Allocation
+            </label>
+          </div>
+        </div>
+      </div>
+          
           <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
             <label className="input-group-text" htmlFor="inputGroupSelect02">
               Allocation
